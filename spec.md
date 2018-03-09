@@ -74,7 +74,7 @@ Your processor must contain a `List` of employees. You should be able to:
 * print a table showing the details of all employees
 * take an employee number and set their number of hours worked for the week, if appropriate
 * take an employee number and set their weekly sales, if appropriate
-* take a number and an employee type and print that many top paid employees of that type
+* take a number and return the top number comissioned employees by sales
 * do a "weekly update" which will update the number of weeks and employee has worked (if appropriate), their total sales (if appropriate) and reset their weekly hours worked and sales to zero (as appropriate).
 
 ### User Interface Class
@@ -86,7 +86,6 @@ Your UI should present a menu to the HR staffer and allow them to do the followi
 * delete an employee - this should prompt for employee id, show that employees information (if there is such an employee) and then as the user if they're sure they want to delete the data. If the user enters "Yes" (or "yes") then the employee should be removed any other answer should result in returning to the menu.
 * print all employee data - print data (including weekly pay) for all employees
 * print employee data - should prompt for employee id and then show the data for that employee (if there is such an employee).
-* print the top 3 employees for each type - prompt for which type
 * print the top 3 comissioned employees by their total sales
 * do the weekly update
 

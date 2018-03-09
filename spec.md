@@ -80,8 +80,6 @@ Your processor must contain a `List` of employees. You should be able to:
 ### User Interface Class
 
 Your UI should present a menu to the HR staffer and allow them to do the following (each of these should involve a call to the processor):
-* load employee data from file
-* save employee data to file
 * add a new employee - prompt for each of piece of information, this will vary with the type of employee (ask that first)
 * enter weekly hours - should prompt for employee id and the for the number of hours worked (if there is such an employee and they are hourly)
 * enter weekly sales - should prompt for employee id and the for the number of sales (if there is such an employee and they are comissioned)
@@ -91,6 +89,8 @@ Your UI should present a menu to the HR staffer and allow them to do the followi
 * print the top 3 employees for each type - prompt for which type
 * print the top 3 comissioned employees by their total sales
 * do the weekly update
+
+When you UI starts running it should load the employee data from a file and then it quits it should write the employee data to a file.
 
 ## Class Diagram
 

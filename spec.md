@@ -3,7 +3,7 @@
 Date Given: **March 9, 2018**
 Date Due: 
 * Class Diagram : **March 14, 2018** - Noon - Uploaded to your Assignment 3 GitHub Repository (that's this one!)
-* Full Solution : **March 23, 2018** - Midnight - Uploaded to your Assignment 3 GitHub Repository  (that's also thiss one!)
+* Full Solution : **March 23, 2018** - Midnight - Uploaded to your Assignment 3 GitHub Repository  (that's also this one!)
 
 ## Overview
 

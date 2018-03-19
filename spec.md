@@ -58,7 +58,7 @@ Each type should also have getters and setters as necessary.
 * Comissioned Employees' Weekly Salary is their base salary + their total weekly sales * the comission rate.
 * Equals should return true if the employees name and id number are the same and they are the same type of employee.
 * toString should present readable information about the employee including their name, id, type and weekly pay.
-* toSaveString must include each instance variable in the employee's information sperated by a comma
+* toSaveString must include each instance variable in the employee's information sperated by a comma, plus a letter(H, C or S) to indicate the employee type after the department. 
 
 **Really Important Note**
 Some of the data and the behaviours are shared between the different employee types. You should create a superclass Employee and gather all of the important shared information there.
@@ -67,6 +67,7 @@ Some of the data and the behaviours are shared between the different employee ty
 
 Your processor must contain a `List` of employees. You should be able to: 
 * read employees in from a file and populate the `List`
+   * Each employee will have a type recorded with a 'H', 'S', or 'C' (for (H)ourly, (S)alaried, or (C)omissioned). You should use this to determine what subclass you need to create for the employee.
 * write the save string for each employee into a file
 * add a new employee
 * remove an employee
@@ -121,9 +122,9 @@ A suggestion:
 * One of the more complex methods is the loading of the data from the input file. You do not want to get hung up on this part and not be able to do the rest of the program. I suggest that, initially, hard code the data and load it into the ArrayList. By doing this, you can complete the development of the rest of the program. Even if you are not able to complete the loading
 program using an input file, you can still get credit for the rest of the functionality. Once the program is working as expected, you can now concentrate in developing the loading program using an input file.
 * For the hard coded data, you may use the following data (identical to the data in the sample input data file) or one of your own:
-   * "Sally", "333-333- 333", "Finance", 15.75, 0.0, 10
-   * "Arnie", "222-222- 222", "Human Resources", 52000
-   * "Bobby", "111-111- 111", "Appliances", 300, 0.0, 10000, .025, 10
+   * "Sally", "333-333- 333", "Finance", 'H', 15.75, 0.0, 10
+   * "Arnie", "222-222- 222", "Human Resources", 'S', 52000
+   * "Bobby", "111-111- 111", "Appliances", 'C', 300, 0.0, 10000, .025, 10
 
 ## Submission
 

@@ -75,7 +75,7 @@ Your processor must contain a `List` of employees. You should be able to:
 * print a table showing the details of all employees
 * take an employee number and set their number of hours worked for the week, if appropriate
 * take an employee number and set their weekly sales, if appropriate
-* take a number and return the top number comissioned employees by sales
+* take a number and print the top number comissioned employees by sales
 * do a "weekly update" which will update the number of weeks and employee has worked (if appropriate), their total sales (if appropriate) and reset their weekly hours worked and sales to zero (as appropriate).
 
 ### User Interface Class
